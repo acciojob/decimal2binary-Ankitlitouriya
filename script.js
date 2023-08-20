@@ -1,13 +1,10 @@
-function decimalToBinary(nam) {
-  //Write you code here
-	//let  num =2;
-	 //let b = decimal.toString( redix);
-	//console.log(num);
+function decimalToBinary(num) {
+  
 	return num.toString(2);
   
 }
-
-// const a = decimalToBinary(2);
-// console.log(2);
+let a = decimalToBinary(7);
+console.log(a);
+ 
 
 window.decimalToBinary = decimalToBinary;
